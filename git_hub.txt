@@ -1,0 +1,107 @@
+ mkdir apurva
+  449  ls
+  450  sudo apurva/
+  451  cd apurva/
+  452  sudo nano index.html
+  453  sudo nano one.html
+  454  git add index.html
+  455  gitadd index.html
+ git init
+ git add index.html
+sudo nano tinku.html
+ git status
+ git commit -m "first commit"
+git config --global user.email "apurvabhawsar3@gamil.com"
+git config --global user.name "ApurvaBhavsar"
+git commit -m "first commit"
+ ssh-keygen create a key cat /home/iacsd/.ssh/id_rsa.pub copy key and paste deploy keys
+
+git remote add origin git@github.com:ApurvaBhavsar/Assignment5419.git
+ git push -u origin master
+git pull --rebase origin master
+git push -u origin master
+error: failed to push some refs to 'github.com:ApurvaBhavsar/apurva.git'
+git pull --rebase origin master
+   60  git rebase
+   61  git config push.rebase
+   62  git push -u origin master
+   63  git push -u origin master true
+   64  git config push.rebase true
+   65  git push -u origin master
+error :-hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+
+	
+   66  git pull origin master
+   67  ls
+   68  git pull.rebase true
+   69  git config pull.rebase true
+   70  git pull origin master
+   71  git add .
+   72  git commit -m "new file"
+   73  git push origin master
+   74  git pull origin master
+   75  git rebase --continue
+   76  git pull origin master
+   77  git push origin master
+   78  ls
+   79  history
+
+Git
+Repository -  Storage
+Git - Git is a version control system 
+
+Easy file recovery 
+Who introduced an issue and when ?
+Roll back 
+
+
+Three stage Architecture
+working directory  --> staging area ---> git repo
+
+Git_Hub - Web site 
+GitHub is a web-based platform that provides hosting for software development and version control using Git
+
+Git Feature - 
+Capture Snapshot 
+
+.Git - Hidden folder
+commit - Snapshot your project
+Each commit includes a commit message that describes the changes made. 
+
+------------------------------------------------
+	Linux
+install Git 
+sudo apt install git
+git status 
+create folder - mkdir yo
+
+
+git config user.name
+apukatiyare
+git config user.email
+apukatiyare@gmail.com
+rm -rf .git (remove git repo)
+
+----------------------------------------------
+
+Git ignore - .gitignore 
+# create gitignore file
+nano .gitigonre
+# if you ignore all the log files 
+*.log
+
+---------------------------------------------
+git diff - Show the differences between the working directory and the index (staging area). 
+git diff --staged  / git diff --cached
+- Show the differences between the staging area and the last commit
+------------------------------------------
+trac file ko direct commit
+git commit -a -m "direct commmit"
+----------------------------------------
+git logs
+git rm --cfached filename  - untrcked file 
+
+git restore --staged filename - unstaged the file
+
+git checkout --filename - changes hat jate he
+
